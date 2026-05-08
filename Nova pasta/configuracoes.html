@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configurações - SENAI</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="page-header">
+        <div class="header-brand">
+            <span class="header-title">Sistema<br><span class="header-subtitle">Fiep</span></span>
+            <div class="header-lines">
+                <span>-</span>
+                <span>-</span>
+                <span>-</span>
+                <span>-</span>
+                <span>-</span>
+            </div>
+            <span class="header-senai">SENAI</span>
+        </div>
+        <nav class="top-nav">
+            <button type="button" onclick="window.location.href='inicio.html'">Início</button>
+            <button type="button" onclick="window.location.href='eventos.html'">Eventos</button>
+            <button type="button" onclick="window.location.href='sobre.html'">Sobre</button>
+        </nav>
+    </header>
+    <main class="content">
+        <aside class="side-menu">
+            <div class="menu-card">
+                <h3>Menu</h3>
+                <button type="button" onclick="window.location.href='configuracoes.html'">Configurações</button>
+                <button type="button">Fotos</button>
+                <button type="button">Alunos</button>
+                <button type="button">Recados</button>
+            </div>
+        </aside>
+        <section class="main-content">
+            <h2>Tela</h2>
+            <p>Escolha o tema da tela abaixo:</p>
+            <div class="theme-buttons">
+                <button id="theme-dark" type="button">Escuro</button>
+                <button id="theme-light" type="button">Claro</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
