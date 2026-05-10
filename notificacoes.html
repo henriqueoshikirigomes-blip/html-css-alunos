@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notificações - SENAI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="page-header">
+        <div class="header-brand">
+            <span class="header-title">Sistema<br><span class="header-subtitle">Fiep</span></span>
+            <div class="header-lines">
+                <span>-</span>
+                <span>-</span>
+                <span>-</span>
+                <span>-</span>
+                <span>-</span>
+            </div>
+            <span class="header-senai">SENAI</span>
+        </div>
+        <nav class="top-nav">
+            <a href="inicio.html"><button type="button">Início</button></a>
+            <a href="eventos.html"><button type="button">Eventos</button></a>
+            <a href="sobre.html"><button type="button">Sobre</button></a>
+        </nav>
+    </header>
+    <main class="content">
+        <aside class="side-menu">
+            <div class="menu-card">
+                <h3>Menu</h3>
+                <a href="configuracoes.html"><button type="button">Configurações</button></a>
+                <a href="fotos.html"><button type="button">Fotos</button></a>
+                <a href="alunos.html"><button type="button">Alunos</button></a>
+                <a href="recados.html"><button type="button">Recados</button></a>
+            </div>
+        </aside>
+        <section class="main-content">
+            <h2>Notificações</h2>
+            <p>Os avisos da escola podem ser recebidos por diferentes canais.</p>
+            <div class="notification-toggle">
+                <input type="checkbox" id="notify-toggle">
+                <label for="notify-toggle" class="toggle-button" aria-live="polite">
+                    <span class="toggle-status"></span>
+                </label>
+            </div>
+            <ul>
+                <li>Eventos e provas</li>
+                <li>Recados da coordenação</li>
+                <li>Prazos de matrícula e documentos</li>
+                <li>Comunicações de classe</li>
+            </ul>
+            <p>Essas informações ajudam o aluno a não perder nenhuma atividade importante.</p>
+        </section>
+    </main>
+</body>
+</html>
